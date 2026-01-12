@@ -80,6 +80,7 @@
 ---
 
 ## 📅 WBS
+[ WBS (프로젝트 진행 일정)](https://docs.google.com/spreadsheets/d/15r640vRfC-G8uQ3YBSAxLdvZtq2MuxxO7RWO78nD-6M/edit?gid=0#gid=0)
 
 ---
 
