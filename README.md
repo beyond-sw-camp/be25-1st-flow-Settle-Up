@@ -1,4 +1,4 @@
-<img width="1272" height="769" alt="image" src="https://github.com/user-attachments/assets/bf336d9a-8885-4af0-82cb-f2f364569eb5" /># be25-1st-신탁 기반 정산 시스템
+# be25-1st-신탁 기반 정산 시스템
 
 ## 🧭 목차
 
