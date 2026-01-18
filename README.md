@@ -97,11 +97,12 @@
 ---
 
 ## 🧩 ERD
+![](img/ERD.PNG)
 
 ---
 
 ## 📋 테이블 명세서
-이미지<br/>
+![](img/table.PNG)<br/>
 [ 테이블 명세서 ](https://docs.google.com/spreadsheets/d/1GI8Nhlo6Zvqm3CNvxjKK17xeaG-IVI5IMGtB0OgICOE/edit?gid=993473287#gid=993473287)
 
 ---
