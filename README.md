@@ -22,6 +22,10 @@
 ### 👥 팀원 소개
 
 <table>
+  <tr> 
+    <th colspan = "6" align = "center"> flow </th> 
+  </tr>
+  
   <tr>
     <th>김진혁</th>
     <th>박하얀</th>
