@@ -195,6 +195,37 @@
 <details>
   <summary>Test Case</summary>
   <details>
+      <summary>FR-02-01 : 정산 규칙 생성 </summary>
+       <img src="img/테스트케이스/FR-02-01.png" />
+    
+  </details>
+  
+  <details>
+      <summary>FR-02-02 : 정산 주기 생성 </summary>
+       <img src="img/테스트케이스/FR-02-02.png" />
+    
+  </details>  
+  
+  <details>
+      <summary>FR-02-03 : 정산 주기 규칙 적용 </summary>
+       <img src="img/테스트케이스/FR-02-03.png" />
+    
+  </details>  
+
+  <details>
+      <summary>FR-02-04 : 정산 명세 생성 </summary>
+       <img src="img/테스트케이스/FR-02-04.png" />
+    
+  </details>
+
+  <details>
+      <summary>FR-02-05 : 정산 완료 예정일 계산 및 갱신 </summary>
+       <img src="img/테스트케이스/FR-02-05.png" />
+       <img src="img/테스트케이스/FR-02-05-1.png" />
+    
+  </details>
+  
+  <details>
       <summary>FR-04-01 : 본사계좌 데이터 저장 </summary>
        <img src="img/테스트케이스/요구사항 FR-04-01.png" />
     
