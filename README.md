@@ -131,7 +131,7 @@
 
 # 7. 🧩 ERD
 이미지 다시 변경
-![](img/flow_erd.PNG)
+![](img/flow_erd.png)
 [ ERD ](https://www.erdcloud.com/d/uzGd5MBTRGSqNebu2)
 
 ---
