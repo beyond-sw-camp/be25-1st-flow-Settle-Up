@@ -255,7 +255,7 @@
        <img src="img/테스트케이스/FR-07-01-03.png" />
        <img src="img/테스트케이스/FR-07-01-04.png" />
        <img src="img/테스트케이스/FR-07-01-05.png" />
-       <img src="img/테스트케이스/FR-07-01-06.png" />
+       <img src="img/테스트케이스/FR-07-01-06 .png" />
        <img src="img/테스트케이스/FR-07-01-07.png" />
        <img src="img/테스트케이스/FR-07-01-08.png" />
        <img src="img/테스트케이스/FR-07-01-09.png"/>
