@@ -123,8 +123,9 @@
 ---
 
 # 6. 🧵 유스케이스
-확정X)<br/>
-![](img/usecase.png)
+<p align="center">
+  <img src="img/usecase.png" />
+</p>
 
 ---
 
