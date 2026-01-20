@@ -252,7 +252,33 @@
        <img src="img/테스트케이스/요구사항 FR-04-03.png" />
     
   </details>
+  <details>
+      <summary>FR-05-01 : 본사 수수료 계산 및 순정산금 저장 </summary>
+       <img src="img/테스트케이스/FR-05-00a.png" />
+       <img src="img/테스트케이스/FR-05-00b.png" />
+       <img src="img/테스트케이스/FR-05-01a.png" />
+       <img src="img/테스트케이스/FR-05-01b.png" />
+  </details>
+  
+  <details>
+      <summary>FR-05-02 : 순정산금 분배 규칙 적용 </summary>
+       <img src="img/테스트케이스/FR-05-02a.png" />
+       <img src="img/테스트케이스/FR-05-02b.png" />
+  </details>  
+  
+  <details>
+      <summary>FR-05-03 :  본사 계좌 자금 갱신 </summary>
+       <img src="img/테스트케이스/FR-05-03b.png" />
+       <img src="img/테스트케이스/FR-05-03c.png" />
+  </details>
 
+  <details>
+      <summary>FR-06-01 :  본사 계좌 자금 갱신 </summary>
+       <img src="img/테스트케이스/FR-06-01a.png" />
+       <img src="img/테스트케이스/FR-06-01b.png" />
+       <img src="img/테스트케이스/FR-06-01c.png" />
+  </details>  
+  
   <details>
       <summary>FR-07-01 : 가맹점 계좌 자금 갱신 </summary>
        <img src="img/테스트케이스/FR-07-01-01.png" />
