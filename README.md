@@ -195,6 +195,21 @@
 <details>
   <summary>Test Case</summary>
   <details>
+      <summary>FR-04-01 : 본사계좌 데이터 저장 </summary>
+       <img src="img/테스트케이스/요구사항 FR-04-01.png" />
+    
+  </details>
+  <details>
+      <summary>FR-04-02 : 위탁계좌 데이터 저장 </summary>
+       <img src="img/테스트케이스/요구사항 FR-04-02.png" />
+    
+  </details>
+  <details>
+      <summary>FR-04-03 : 가맹점계좌 데이터 저장 </summary>
+       <img src="img/테스트케이스/요구사항 FR-04-03.png" />
+    
+  </details>
+  <details>
       <summary>FR-08-01 : PG사 -> 본사 원장 데이터 저장 </summary>
        <img src="img/테스트케이스/FR-08-01.png" />
     
