@@ -184,6 +184,11 @@
 <details>
   <summary>Test Case</summary>
   <details>
+      <summary>FR-01-01 : 결제 원천 데이터 저장 </summary>
+       <img src="img/테스트케이스/FR-01-01.png" />
+    
+  </details>
+  <details>
       <summary>FR-02-01 : 정산 규칙 생성 </summary>
        <img src="img/테스트케이스/FR-02-01.png" />
     
