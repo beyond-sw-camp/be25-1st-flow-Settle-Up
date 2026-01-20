@@ -194,9 +194,18 @@
 
 <details>
   <summary>Test Case</summary>
+  
   <details>
       <summary>FR-08-05 : 자금흐름 원장 감사</summary>
-       
+       <h3>가맹점 기준 전체 자금 흐름 타임라인 감사</h3>
+       <img src="img/테스트케이스/FR-08-05-1.png" />
+       <h3>본사 기준 들어온 돈 vs 나간 돈 감사</h3>
+       <img src="img/테스트케이스/FR-08-05-2.png" />
+       <h3>위탁계좌 기준 감사</h3>
+       <img src="img/테스트케이스/FR-08-05-3.png" />
+       <h3>정산 1건(hq_id) 단위 정합성 감사</h3>
+       <img src="img/테스트케이스/FR-08-05-4.png" />
+    
   </details>
 </details> 
 
