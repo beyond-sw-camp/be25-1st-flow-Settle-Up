@@ -217,7 +217,7 @@
   <details>
       <summary>FR-02-05 : 정산 완료 예정일 계산 및 갱신 </summary>
        <img src="img/테스트케이스/FR-02-05.png" />
-       <img src="img/테스트케이스/FR-02-05-1.png" />
+       <img src="img/테스트케이스/FR-02-05-01.png" />
     
   </details>
   
