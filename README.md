@@ -436,6 +436,23 @@ INSERT INTO settlement_cycle (
 ('CYC-20260120-10', 10, 10, '2026-01-19', '2026-01-20', 'PENDING', '2026-01-20 09:00:00', '2026-01-20 09:30:00', '2026-01-24')
 ```
 ```sql
+-- FR-02-03 정산 주기 규칙 적용 가맹점별로 어떤 PG사와 계약되어 있고, 해당 PG사의 정산 규칙(D+N)이 어떻게 설정되어 있는지 확인 후 적용
+
+SELECT sc.settlement_cycle_id,
+       sc.settlement_cycle_code,
+       mer.business_name,
+       pp.`name`,
+       sr.`name`,
+       sc.period_start_date,
+       sc.period_end_date,
+       sc.`status`
+FROM settlement_cycle sc
+JOIN merchant mer ON sc.merchant_id = mer.merchant_id
+JOIN pg_provider pp ON sc.pg_provider_id = pp.pg_provider_id
+JOIN settlement_rule sr ON sc.pg_provider_id = sr.settlement_rule_id
+;
+```
+```sql
 --  FR-02-04 정산 명세 일괄 생성 (영수증 다발 처리)
 INSERT INTO settlement_statement (
     settlement_cycle_id,
@@ -998,6 +1015,37 @@ WHERE merchant_id = @merchant_id;
 UPDATE trust_account
 SET `status` = 'INACTIVE'
 WHERE merchant_id = @merchant_id;
+```
+```sql
+-- FR-10-05 가맹점 등록
+SELECT NVL2(
+	(SELECT merchant_id
+	FROM merchant
+	WHERE business_name = '엽기떡볶이 상도점'
+	LIMIT 1),
+	'중복된 가맹점이 존재합니다.',
+	'가맹점 등록 가능'
+) AS '가맹점 중복 체크';
+
+SELECT NVL2(
+	(SELECT merchant_id
+	FROM merchant
+	WHERE business_no = '113-47-64497'
+	LIMIT 1),
+	'중복된 사업자 번호가 존재합니다.',
+	'사업자 등록 가능'
+) AS '사업자 번호 중복 체크';
+
+
+INSERT INTO merchant (business_name, business_no) 
+VALUES ('엽기떡볶이 상도점', '113-47-64497');
+
+SET @merchant_id = LAST_INSERT_ID();
+
+UPDATE merchant_user_role
+SET merchant_id = @merchant_id,
+	 user_role = 'OWNER'
+WHERE user_id = @user_id;
 ```
 ```sql
 -- FR-10-06 가맹점 등록 해제
