@@ -632,7 +632,7 @@ CREATE TABLE IF NOT EXISTS trust_partner_ledger (
 
   <details>
       <summary>FR-12-02 : 지급 내역서 조회 </summary>
-       <img src="img/테스트케이스/FR-12-02 지급 내역 데이터 @merchant_id 설정.pn" />
+       <img src="img/테스트케이스/FR-12-02 지급 내역 데이터 @merchant_id 설정.png" />
        <img src="img/테스트케이스/FR-12-02 지급 내역 데이터_사업자 번호 조회.png" />
        <img src="img/테스트케이스/FR-12-02 지급 내역 데이터_위탁 계좌 조회.png" />
        <img src="img/테스트케이스/FR-12-02 지급 내역 데이터_정산 주기 데이터 조회.png" />
