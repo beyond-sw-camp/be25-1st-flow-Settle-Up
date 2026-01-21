@@ -110,7 +110,7 @@
 ---
 
 # 4. 🧾 요구사항 명세서
-![](img/requirements.PNG)<br/>
+![](img/Srs.png)<br/>
 🔗[ 요구사항 명세서 ](https://docs.google.com/spreadsheets/d/1t-3yzFlvFUKhRYMtjQxSj4t5rjAZPjR0/edit?gid=1080029165#gid=1080029165)
 
 ---
